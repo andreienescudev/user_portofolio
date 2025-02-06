@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Andrei Enescu | Software developer</title>
+        <link rel="icon" type="image/png" href="assets/img/icons8-frontend.gif">
+
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div class="nav__logo">
+                    <a href="#">Andrei</a>
+                </div>
+        
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+        
+                <div class="nav__menu" id="nav-menu">
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+        
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active"><i class='bx bx-home-alt'></i> Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link"><i class='bx bx-user'></i> About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link"><i class='bx bx-brain'></i> Skills</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link"><i class='bx bx-briefcase'></i> Services</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#works" class="nav__link"><i class='bx bx-image'></i> Works</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link"><i class='bx bx-envelope'></i> Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <div class="home__data">
+                        <div class="home__img">
+                            <!-- When you change your image it must be of equal measurements (Ejm: 250 x 250), so that it can be centered -->
+                            <img src="assets/img/portret.png" alt="">
+                        </div>
+
+                        <h1 class="home__title">Enescu Andrei-Ioan</h1>
+                        <span class="home__profession">Junior Sofware Developer</span>
+
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/enescu-andrei-ioan-63321b14a/" target="_blank" class="home__social-link"><i class='bx bxl-linkedin'></i></a>
+                            <a href="https://github.com/EnescuAndrei-Ioan" target="_blank" class="home__social-link"><i class='bx bxl-github'></i></a>
+                        </div>
+                        
+                        <a download="" href="assets/pdf/Cv_Andrei_Enescu.pdf" class="button home__button">Download Resume</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <span class="section-subtitle">My Intro</span>
+                <h2 class="section-title">About Me</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__data">
+                        <p class="about__text">Hi, I'm a junior software developer, passionate about creating and developing web interfaces. I have many years of experience in this area of work, with multiple quality projects.</p>
+                        <img src="assets/img/AboutMe.jpeg" alt="" class="about__img">
+                    </div>
+
+                    <div>
+                        <div class="about__information">
+                            <h3 class="about__information-title">Information</h3>
+    
+                            <div class="about__information-data">
+                                <i class='bx bx-user about__information-icon'></i>
+                                <span>Enescu Andrei-Ioan</span>
+                            </div>
+    
+                            <div class="about__information-data">
+                                <i class='bx bx-phone about__information-icon' ></i>
+                                <span>+40 729 000 048</span>
+                            </div>
+    
+                            <div class="about__information-data">
+                                <i class='bx bx-envelope about__information-icon' ></i>
+                                <span>andreienescu77.com</span>
+                            </div>
+                        </div>
+    
+                        <div class="about__information">
+                            <h3 class="about__information-title">Experience and support</h3>
+    
+                            <div class="about__information-data">
+                                <i class='bx bx-medal about__information-icon' ></i>
+                                <div>
+                                    <span class="about__information-subtitle">3 Years Job</span>
+                                    <span class="about__information-subtitle-small">Experience</span>
+                                </div>
+                            </div>
+    
+                            <div class="about__information-data">
+                                <i class='bx bx-briefcase-alt about__information-icon' ></i>
+                                <div>
+                                    <span class="about__information-subtitle">10+ Projects</span>
+                                    <span class="about__information-subtitle-small">Completed</span>
+                                </div>
+                            </div>
+    
+                            <!-- <div class="about__information-data">
+                                <i class='bx bx-support about__information-icon' ></i>
+                                <div>
+                                    <span class="about__information-subtitle">Assist</span>
+                                    <span class="about__information-subtitle-small">Online 24/7</span>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <span class="section-subtitle">Why Choose Me</span>
+                <h2 class="section-title">My Expertise Area</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__content">
+                        <h3 class="skills__subtitle">Frontend</h3>
+
+                        <div class="skills__data">
+                            <span class="skills__name">HTML/CSS</span>
+                            <div class="skills__bar">
+                                <div class="skills__progress" style="--progress-value: 80%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <span class="skills__name">JavaScript</span>
+                            <div class="skills__bar">
+                                <div class="skills__progress" style="--progress-value: 70%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <span class="skills__name">React</span>
+                            <div class="skills__bar">
+                                <div class="skills__progress" style="--progress-value: 50%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Angular</span>
+                            <div class="skills__bar">
+                                <div class="skills__progress" style="--progress-value: 50%;"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__subtitle">Backend</h3>
+
+                        <div class="skills__data">
+                            <span class="skills__name">.Net</span>
+                            <span class="skills__number">70%</span>
+                            <span class="skills__bar skills__react"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Node js</span>
+                            <span class="skills__number">60%</span>
+                            <span class="skills__bar skills__angular"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Java</span>
+                            <span class="skills__number">50%</span>
+                            <span class="skills__bar skills__angular"></span>
+                        </div>
+
+                        <!-- <div class="skills__data">
+                            <span class="skills__name"></span>
+                            <span class="skills__number">60%</span>
+                            <span class="skills__bar skills__python"></span>
+                        </div> -->
+                    </div>
+<!-- Power platform -->
+                    <div class="skills__content">
+                        <h3 class="skills__subtitle">Power platform</h3>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Power Apps</span>
+                            <span class="skills__number">70%</span>
+                            <span class="skills__bar skills__react"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Power automate</span>
+                            <span class="skills__number">70%</span>
+                            <span class="skills__bar skills__react"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Power BI</span>
+                            <span class="skills__number">50%</span>
+                            <span class="skills__bar skills__angular"></span>
+                        </div>
+
+                        <!-- <div class="skills__data">
+                            <span class="skills__name"></span>
+                            <span class="skills__number">60%</span>
+                            <span class="skills__bar skills__python"></span>
+                        </div> -->
+                    </div>
+                </div>
+            </section>
+
+            <!--===== EDUCATION =====-->
+            <section class="education section">
+                <span class="section-subtitle">Qualification</span>
+                <h2 class="section-title">My Education</h2>
+
+                <div class="education__container bd-grid">
+                    <div class="education__content">
+                        <div>
+                            <h3 class="education__year">2021 - 2023</h3>
+                            <span class="education__university">Bachelor of Science</span>
+                        </div>
+
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education__race">Romanian-American University</h3>
+                            <span class="education__specialty">Faculty of Computer Science for Business Management</span> 
+                        </div>
+                    </div>
+
+                    <div class="education__content">
+                        <div>
+                            <h3 class="education__year">2018 - 2021</h3>
+                            <span class="education__university">Bachelor of Science</span>
+                        </div>
+
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education__race">Academy of Economic Studies of Bucharest</h3>
+                            <span class="education__specialty">Faculty of Finance, Insurance, Banks and Stock Exchanges</span> 
+                        </div>
+                    </div>
+
+                    <div class="education__content">
+                        <div>
+                            <h3 class="education__year">2014 - 2018</h3>
+                            <span class="education__university">High school</span>
+                        </div>
+
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education__race">"Nicolae Grigorescu" National College</h3>
+                            <span class="education__specialty">Mathematical-Informatics</span> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SERVICES =====-->
+            <section class="services section" id="services">
+                <span class="section-subtitle">What I Offer</span>
+                <h2 class="section-title">My Services</h2>
+
+                <div class="services__container bd-grid">
+                    <div class="services__content">
+                        <i class='bx bx-code services__icon'></i>
+                        <h3 class="services__title">Web Developing</h3>
+                        <p class="services__description">Amazing experience in web development using HTML, CSS and JavaScript, proficiently creating and styling web pages, ensuring a visually appealing and responsive user interface</p>
+                    </div>
+
+                    <div class="services__content">
+                        <i class='bx bx-pen services__icon'></i>
+                        <h3 class="services__title">UI/UX</h3>
+                        <p class="services__description">Good experience in UI/UX design, utilizing my skills to create visually appealing and user-friendly interfaces.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <i class='bx bx-brush services__icon'></i>
+                        <h3 class="services__title">Web Design</h3>
+                        <p class="services__description">I actively seek feedback on design from others, fostering a collaborative approach to continuously improve and refine my work based on diverse perspectives.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <i class='bx bx-server services__icon'></i>
+                        <h3 class="services__title">Database</h3>
+                        <p class="services__description">Practical experience working with T-SQL, PostgreSQL and MySQL demonstrating proficiency in utilizing these database technologies. </p>
+                    </div>
+
+                    <div class="services__content">
+                        <i class='bx bx-pencil services__icon'></i>
+                        <h3 class="services__title">Documentation</h3>
+                        <p class="services__description">Strong background in creating comprehensive documentation for applications, encompassing technical specifications, user manuals, and system documentation.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <i class='bx bx-mobile-alt services__icon'></i>
+                        <h3 class="services__title">Power Platform</h3>
+                        <p class="services__description">I stay consistently updated with emerging technologies, keeping abreast of the latest developments in the ever-evolving tech landscape to enhance my skills and stay ahead of industry trends.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== PROJECT IN MIND =====-->
+            <section class="project section">
+                <div class="project__container bd-grid">
+                    <div class="project__data">
+                        <h2 class="section-title project__title">Do you have a project in mind?</h2>
+                        <p class="project__description">If you have a project that you want to carry out, do not hesitate and tell me what it is, and what services I can offer you, contact me directly here.</p>
+                        <a href="#contact" class="button button__light">Contact Me</a>
+                    </div>
+
+                    <img src="assets/img/Andrei Enescu.png" alt="" class="project__img">
+                </div>
+            </section>
+
+            <!--===== WORKS =====-->
+            <section class="works section" id="works">
+                <span class="section-subtitle">My Portfolio</span>
+                <h2 class="section-title">Works & Passions</h2>
+
+                <div class="works__container bd-grid">
+                    <div class="works__img">
+                        <img src="assets/img/Golf.jpeg" alt="">
+
+                        <div class="works__data">
+                            <!-- Insert your job link into href = "" -->
+                            <a href="https://www.linkedin.com/in/enescu-andrei-ioan-63321b14a/details/experience/" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Golf Activity</span>
+                        </div>
+                    </div>
+                    <div class="works__img">
+                        <img src="assets/img/pl900.png" alt="">
+
+                        <div class="works__data">
+                            <a href="https://www.credly.com/badges/db8d6125-985a-4df9-913e-86284c8b8ddd/linked_in_profile" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Certifications</span>
+                        </div>
+                    </div>
+                    <div class="works__img">
+                        <img src="assets/img/media.jpeg" alt="">
+
+                        <div class="works__data">
+                            <a href="https://www.instagram.com/andreienescu_/" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Social media <br> enthusiastic</span>
+                        </div>
+                    </div>
+                    <!-- <div class="works__img">
+                        <img src="assets/img/work4.jpg" alt="">
+
+                        <div class="works__data">
+                            <a href="#" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Work 4</span>
+                        </div>
+                    </div>
+                    <div class="works__img">
+                        <img src="assets/img/work5.jpg" alt="">
+
+                        <div class="works__data">
+                            <a href="#" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Work 5</span>
+                        </div>
+                    </div>
+                    <div class="works__img">
+                        <img src="assets/img/work6.jpg" alt="">
+
+                        <div class="works__data">
+                            <a href="#" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Work 6</span>
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <span class="section-subtitle">Contact Me</span>
+                <h2 class="section-title">Get In Touch</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="https://formspree.io/f/myyrzqew" method="POST" class="contact__form" nsubmit="resetForm()">
+                        <div class="contact__inputs">
+                            <input type="text" name="name" placeholder="Name" class="contact__input">
+                            <input type="mail" name="email" placeholder="Email" class="contact__input">
+                        </div>
+                        <input type="text" name="subject" placeholder="Project" class="contact__input">
+                        <textarea name="message" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+                        <input type="submit" value="Send Message" class="button contact__button">
+                    </form>
+
+                    <div class="contact__info">
+                        <div class="contact__info">
+                            <h3 class="contact__subtitle">Call me</h3>
+                            <div class="about__information-data">
+                                <i class='bx bx-phone about__information-icon' ></i>
+                                <span>+40 729 000 048</span>
+                            </div>
+                            <!-- <span class="contact__text">999-000-123</span> -->
+                        </div>
+
+                        <div class="contact__info">
+                            <h3 class="contact__subtitle">E-mail</h3>
+                            <div class="about__information-data">
+                                <i class='bx bx-envelope about__information-icon' ></i>
+                                <span>andreienescu77.com</span>
+                            </div>
+                            <!-- <span class="contact__text">contactme@harris.com</span> -->
+                        </div>
+
+                        <div class="contact__info">
+                            <h3 class="contact__subtitle">Location</h3>
+                            <div class="about__information-data">
+                                <i class='bx bx-home about__information-icon' ></i>
+                            
+                            <span class="contact__text">Str. Strada,<br>
+                             Bucuresti, Sector 7</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <h1 class="footer__title">Thank You!</h1>
+                <p class="footer__description">I am Andrei and this is my personal website, consult me here.</p>
+
+                <div class="footer__social">
+                    <a href="https://www.facebook.com/andrei.enescu.1422" target="_blank" class="footer__link"><i class='bx bxl-facebook' ></i></a>
+                    <a href="https://www.instagram.com/andreienescu_/" target="_blank" class="footer__link"><i class='bx bxl-instagram' ></i></a>
+                    <!-- <a href="https://twitter.com/" target="_blank" class="footer__link"><i class='bx bxl-twitter' ></i></a> -->
+                </div>
+                <p class="footer__copy">All right reserved by Enescu Andrei-Ioan - 2024</p>
+            </div>
+        </footer>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
